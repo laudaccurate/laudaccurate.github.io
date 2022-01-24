@@ -1,20 +1,33 @@
-import Head from "next/head";
-import Image from "next/image";
-import styles from "../styles/Home.module.css";
 import ContainerBlock from "../components/ContainerBlock";
 import Hero from "../components/Hero";
 import FavouriteProjects from "../components/FavouriteProjects";
 import LatestCode from "../components/LatestCode";
+import getLatestRepos from "../lib/getLatestRepos";
+import userData from "../constants/data";
 
-export default function Home() {
+export default function Home({ repositories }) {
   return (
     <ContainerBlock
       title="Laud Gilbert - Software Engineer"
       description="Doing Good with Tech"
     >
-      {<Hero />}
+      <Hero />
       <FavouriteProjects />
-      <LatestCode />
+      <LatestCode repositories={repositories} />
     </ContainerBlock>
   );
 }
+
+// export const getServerSideProps = async () => {
+//   console.log(process.env.GITHUB_AUTH_TOKEN);
+//   let token = process.env.GITHUB_AUTH_TOKEN;
+
+//   const repositories = await getLatestRepos(userData, token);
+//   // console.log("REPOSITORIES", repositories);
+
+//   return {
+//     props: {
+//       repositories,
+//     },
+//   };
+// };

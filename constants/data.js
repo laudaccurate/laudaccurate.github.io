@@ -1,11 +1,11 @@
 const userData = {
-  githubUsername: "manuarora700",
-  name: "Manu Arora",
-  designation: "Full-Stack Developer",
-  avatarUrl: "/avatar.png",
-  email: "manuarorawork@gmail.com",
-  phone: "+91 9587738861",
-  address: "Jaipur, Rajasthan, India.",
+  githubUsername: "laudaccurate",
+  name: "Laud Gilbert",
+  designation: "Software Engineer",
+  avatarUrl: "/laud.jpeg",
+  email: "laudaccurate@gmail.com",
+  phone: "+233 50 2756 192",
+  address: "Accra, Ghana.",
   projects: [
     {
       title: "Tailwind Master Kit",
@@ -13,39 +13,14 @@ const userData = {
       imgUrl: "/tmk.jpg",
     },
     {
-      title: "PlaceholderTech",
+      title: "Union Systems Global",
       link: "https://placeholdertech.in",
       imgUrl: "/placeholdertech.png",
     },
     {
       title: "Portfolio",
-      link: "https://manuarora.in",
+      link: "https://laudaccurate.github.io/",
       imgUrl: "/portfolio.png",
-    },
-    {
-      title: "CovidRescue",
-      link: "https://covidrescue.co.in",
-      imgUrl: "/covidrescue.png",
-    },
-    {
-      title: "Algochurn",
-      link: "https://algochurn.com",
-      imgUrl: "/algochurn.png",
-    },
-    {
-      title: "Playground",
-      link: "https://play.placeholdertech.in",
-      imgUrl: "/playground.png",
-    },
-    {
-      title: "Feedmeback",
-      link: "https://feedmeback.vercel.app",
-      imgUrl: "/feedmeback.png",
-    },
-    {
-      title: "Devmedium",
-      link: "https://devmedium.vercel.app",
-      imgUrl: "/devmedium.png",
     },
   ],
   about: {
@@ -61,7 +36,7 @@ const userData = {
   },
   experience: [
     {
-      title: "Software Developer",
+      title: "Software Engineer",
       company: "mroads",
       year: "2021",
       companyLink: "https://mroads.com",
@@ -106,10 +81,10 @@ const userData = {
   resumeUrl:
     "https://drive.google.com/file/d/1xmE3BOmgM7TAOOgVp36xQIQvYDntDYoo/view?usp=sharing",
   socialLinks: {
-    instagram: "https://instagram.com/maninthere",
-    twitter: "https://twitter.com/mannupaaji",
-    linkedin: "https://linkedin.com/in/manuarora28",
-    github: "https://github.com/manuarora700",
+    instagram: "https://www.instagram.com/laud.gilbert/",
+    twitter: "https://twitter.com/laud_gilbert",
+    linkedin: "https://www.linkedin.com/in/gilbert-laud-yaw-akakpo-6a7483156/",
+    github: "https://github.com/laudaccurate",
     facebook: "https://facebook.com/",
   },
 };

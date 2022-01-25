@@ -6,9 +6,8 @@ import userData from "../constants/data";
 export default function LatestCode({ repositories }) {
   const [repos, setRepos] = useState([]);
 
-  useEffect(async () => {
-    // let latestRepos = await getLatestRepos(userData);
-    // console.log("latestRepos", latestRepos);
+  useEffect(() => {
+    console.log(repositories);
     setRepos(repositories);
   }, []);
   return (
@@ -57,7 +56,7 @@ export default function LatestCode({ repositories }) {
 const GithubRepoCard = ({ latestRepo }) => {
   return (
     <div className="github-repo">
-      <h1 className="font-semibold text-xl dark:text-gray-200 text-gray-700">
+      <h1 className="font-semibold text-xl dark:text-gray-200 text-blue-700">
         {latestRepo.name}
       </h1>
       <p className="text-base font-normal my-4 text-gray-500">

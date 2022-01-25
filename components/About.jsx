@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import userData from "../constants/data";
 
 export default function About() {
@@ -15,14 +16,13 @@ export default function About() {
             className="leading-loose text-2xl md:text-4xl font-semibold  mx-4"
             style={{ lineHeight: "3rem" }}
           >
-            {userData.about.title}. 
+            {userData.about.title}.
             <a
               className="bg-red-500 rounded-md px-2 py-1 text-white ml-3"
               href={userData.about.currentProjectUrl}
             >
-              I am all these and more by God's Grace 🙏🏽
+              I am all these and more by God&apos;s Grace 🙏🏽
             </a>
-            
           </p>
         </div>
       </div>
@@ -42,7 +42,7 @@ export default function About() {
                 >
                   mail
                 </a>{" "}
-                and I'll get back.
+                and I&apos;ll get back.
               </p>
             </div>
             <div className="mt-8">
@@ -50,7 +50,7 @@ export default function About() {
                 Job Opportunities
               </h1>
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
-                I'm open to remote roles currently, If I fit your search,
+                I&apos;m open to remote roles currently, If I fit your search,
                 check my{" "}
                 <a
                   href={userData.resumeUrl}
@@ -59,7 +59,7 @@ export default function About() {
                 >
                   CV
                 </a>{" "}
-                and I'd love to work with you.
+                and I&apos;d love to work with you.
               </p>
             </div>
             {/* Social Links */}
@@ -79,7 +79,7 @@ export default function About() {
                   </p>
                 </a>
               </div> */}
-              
+
               <div className="flex flex-row justify-start items-center">
                 <a
                   href={userData.socialLinks.github}
@@ -145,68 +145,82 @@ export default function About() {
               Tech Stack
             </h1>
             <div className="flex flex-row flex-wrap mt-8">
-             <img
+              <Image
+                alt="image"
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/flutter/flutter.png"
                 className="h-20 w-20 mx-4 my-4"
               />
-              <img
+              <Image
+                alt="image"
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/dart/dart.png"
                 className="h-20 w-20 mx-4 my-4"
               />
-              <img
+              <Image
+                alt="image"
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
                 className="h-20 w-20 mx-4 my-4"
               />
-              
-              <img
+
+              <Image
+                alt="image"
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"
                 className="h-20 w-20 mx-4 my-4"
               />
-              <img
+              <Image
+                alt="image"
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"
                 className="h-20 w-20 mx-4 my-4"
               />
-              <img
+              <Image
+                alt="image"
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/vue/vue.png"
                 className="h-20 w-20 mx-4 my-4"
               />
-              <img
+              <Image
+                alt="image"
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"
                 className="h-20 w-20 mx-4 my-4"
               />
-              <img
+              <Image
+                alt="image"
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"
                 className="h-20 w-20 mx-4 my-4"
               />
-              <img
+              <Image
+                alt="image"
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png"
                 className="h-20 w-20 mx-4 my-4"
               />
-              <img
+              <Image
+                alt="image"
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png"
                 className="h-20 w-20 mx-4 my-4"
               />
-              <img
+              <Image
+                alt="image"
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png"
                 className="h-20 w-20 mx-4 my-4"
               />
-              <img
+              <Image
+                alt="image"
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/postgresql/postgresql.png"
                 className="h-20 w-20 mx-4 my-4"
               />
-              <img
+              <Image
+                alt="image"
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png"
                 className="h-20 w-20 mx-4 my-4"
               />
-              <img
+              <Image
+                alt="image"
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"
                 className="h-20 w-20 mx-4 my-4"
               />
-              <img
+              <Image
+                alt="image"
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"
                 className="h-20 w-20 mx-4 my-4"
-              />              
-              
+              />
             </div>
           </div>
         </div>

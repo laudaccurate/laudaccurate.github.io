@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      NEXT_PUBLIC_BASE_PATH: /laudaccurate.github.io
+      NEXT_PUBLIC_BASE_PATH:
 
     strategy:
       matrix:

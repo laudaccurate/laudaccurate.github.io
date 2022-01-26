@@ -18,7 +18,7 @@ export default function Home({ repositories }) {
   );
 }
 
-export const getServerSideProps = async () => {
+export async function getServerSideProps() {
   let token = process.env.GITHUB_AUTH_TOKEN;
 
   const repositories = await getLatestRepos(userData, token);
@@ -29,4 +29,4 @@ export const getServerSideProps = async () => {
       repositories,
     },
   };
-};
+}

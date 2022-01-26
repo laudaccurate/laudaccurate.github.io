@@ -1,8 +1,10 @@
+import { prefix } from "../utils/prefix";
+
 const userData = {
   githubUsername: "laudaccurate",
   name: "LAUD GILBERT",
   designation: "Software Engineer",
-  avatarUrl: "/laud1.jpeg",
+  avatarUrl: `${prefix}/laud1.jpeg`,
   email: "laudaccurate@gmail.com",
   phone: "+233 50 2756 192",
   address: "Accra, Ghana.",
@@ -10,27 +12,27 @@ const userData = {
     {
       title: "AKRBank Mobile",
       link: "https://play.google.com/store/apps/details?id=com.unionsg.akrbank",
-      imgUrl: "/akrb.png",
+      imgUrl: `${prefix}/akrb.png`,
     },
     {
       title: "UTB QR Merchant",
       link: "https://play.google.com/store/apps/details?id=com.unionsg.qr_merchant",
-      imgUrl: "/utbqr.png",
+      imgUrl: `${prefix}/utbqr.png`,
     },
     {
       title: "Share App",
       link: "https://github.com/king-d-dev/share-dist",
-      imgUrl: "/share.png",
+      imgUrl: `${prefix}/share.png`,
     },
     {
       title: "Service Hub",
       link: "https://github.com/laudaccurate/service_hub",
-      imgUrl: "/hub.png",
+      imgUrl: `${prefix}/hub.png`,
     },
     {
       title: "Mail Janitor",
       link: "https://github.com/laudaccurate/mail-janitor",
-      imgUrl: "/janitor.png",
+      imgUrl: `${prefix}/janitor.png`,
     },
   ],
   about: {

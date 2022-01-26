@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import { prefix } from "../utils/prefix";
 
 export default function FavouriteProjects() {
   return (
@@ -40,7 +41,7 @@ export default function FavouriteProjects() {
           >
             <div className="relative overflow-hidden">
               <img
-                src="/akrb.png"
+                src={`${prefix}/akrb.png`}
                 alt="akrb mobile"
                 className="transform hover:scale-125 transition duration-2000 ease-out"
               />
@@ -60,7 +61,7 @@ export default function FavouriteProjects() {
             <div className="relative overflow-hidden">
               {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
               <img
-                src="/utbqr.png"
+                src={`${prefix}/utbqr.png`}
                 alt="utbqr"
                 className="transform hover:scale-125 transition duration-2000 ease-out"
               />
@@ -80,7 +81,7 @@ export default function FavouriteProjects() {
             <div className="relative overflow-hidden shadow-2xl">
               {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
               <img
-                src="/share.png"
+                src={`${prefix}/share.png`}
                 alt="share"
                 className="transform hover:scale-125 transition duration-2000 ease-out object-cover shadow-2xl"
               />
